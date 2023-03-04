@@ -1,0 +1,48 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>Scientific Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+	<div class="calculator">
+		<form>
+			<input type="text" id="display" readonly>
+			<input type="button" value="(" onclick="updateDisplay('(')">
+			<input type="button" value=")" onclick="updateDisplay(')')">
+			<input type="button" value="C" onclick="clearDisplay()">
+			<input type="button" value="CE" onclick="clearEntry()">
+			<input type="button" value="7" onclick="updateDisplay('7')">
+			<input type="button" value="8" onclick="updateDisplay('8')">
+			<input type="button" value="9" onclick="updateDisplay('9')">
+			<input type="button" value="/" onclick="updateDisplay('/')">
+			<input type="button" value="sin" onclick="updateDisplay('sin(')">
+			<input type="button" value="cos" onclick="updateDisplay('cos(')">
+			<input type="button" value="tan" onclick="updateDisplay('tan(')">
+			<input type="button" value="^" onclick="updateDisplay('^')">
+			<input type="button" value="4" onclick="updateDisplay('4')">
+			<input type="button" value="5" onclick="updateDisplay('5')">
+			<input type="button" value="6" onclick="updateDisplay('6')">
+			<input type="button" value="*" onclick="updateDisplay('*')">
+			<input type="button" value="log" onclick="updateDisplay('log(')">
+			<input type="button" value="ln" onclick="updateDisplay('ln(')">
+			<input type="button" value="sqrt" onclick="updateDisplay('sqrt(')">
+			<input type="button" value="%" onclick="updateDisplay('%')">
+			<input type="button" value="1" onclick="updateDisplay('1')">
+			<input type="button" value="2" onclick="updateDisplay('2')">
+			<input type="button" value="3" onclick="updateDisplay('3')">
+			<input type="button" value="-" onclick="updateDisplay('-')">
+			<input type="button" value="pi" onclick="updateDisplay('pi')">
+			<input type="button" value="e" onclick="updateDisplay('e')">
+			<input type="button" value="exp" onclick="updateDisplay('exp(')">
+			<input type="button" value="+" onclick="updateDisplay('+')">
+			<input type="button" value="0" onclick="updateDisplay('0')">
+			<input type="button" value="." onclick="updateDisplay('.')">
+			<input type="button" value="=" onclick="calculate()">
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
+
